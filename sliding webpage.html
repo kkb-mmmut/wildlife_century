@@ -1,0 +1,229 @@
+ <html>
+<head>
+<title>WILDLIFE SANCTUARIES</title>
+
+<script>
+var sam=["dog.jpg","dog2.jpg","cat.jpg","deer.jpg","lion.jpg","tiger.jpg","lambs.jpg","fox.jpg","wolf.jpg"];
+var i=0;
+function slide()
+{
+//alert("hi! this is kamlesh...");
+var div=document.getElementById("slider");
+div.style.backgroundImage="url('animals/"+sam[i]+"')";
+i++;
+if(sam.length==i)
+{
+i=0;
+}
+window.setTimeout("slide()",1500);
+}
+
+</script>
+<style>
+body
+{
+background-image:url(nature/ppp.jpg);
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:cover;
+}
+ 
+#outer
+{
+height:1200px;
+width:1000px;
+//border:1px solid white;
+margin:50px auto;
+}
+#menu
+{
+height:50px;
+width:1000px;
+background-color:darkred;
+border-radius:20px 20px 0px 0px;
+margin:0px 0px;
+padding-top:1px;
+padding-left:0px;
+border:1px solid darkred;
+}
+#slider
+{
+height:250px;
+width:1000px;
+margin-top:5px;
+border:1px solid none;
+background-size:cover;
+}
+#parent
+{
+height:600px;
+width:1000px;
+//border:1px solid white;
+margin-top:5px;
+}
+#left
+{
+height:600px;
+width:700px;
+background-color:indianred;
+float:left;
+border-radius:0px 0px 0px 20px;
+text-align:justify;
+}
+#right
+{
+height:600px;
+width:300px;
+background-color:lightcoral;
+float:right;
+border-radius:0px 0px 20px 0px;
+border:1px lightcoral;
+}
+#footer
+{
+height:270px;
+width:1000px;
+background-color:darkred;
+background-size:270px 1000px;
+margin-top:20px;
+border-radius:20px;
+}
+#menu ul
+{
+list-style-type:none;
+}
+#menu ul li 
+{
+display:inline;
+padding-top:18px;
+padding-left:20px;
+padding-bottom:17px;
+padding-right:20px;
+//border:1px solid;
+margin-left:20px;
+background-color:darkred;
+border-radius:10px 10px;
+}
+#menu ul li a
+{
+color:white;
+text-decoration:none;
+}
+
+#menu ul li:hover
+{
+background:-webkit-radial-gradient(red 30%,black 60%);
+padding-left:25px;
+padding-right:25px;
+padding-bottom:23px;
+padding-top:22px;
+opacity:0.8;
+}
+a:hover
+{
+color:white;
+}
+
+#a
+{ 
+height:40px;
+width:260;
+margin-left:20px;
+margin-top:20px
+color:white;
+background-color:darkred;
+border-radius:20px;
+}
+#b
+{
+height:400px;
+width:280px;
+border:1px solid darkred;
+background-color:indianred;
+margin-left:10px;
+margin-top:20px;
+border-radius:20px;
+}
+ 
+</style> 
+</head>
+<body bgcolor="green" onload="slide()">
+<div id="outer">
+    <div id="menu">
+	
+	   <ul>
+	   <li><a href="#">HOME</a></li>
+	   <li><a href="#">ABOUT US</a></li>
+	   <li><a href="#">ANIMALS</a></li>
+	   <li><a href="#">GALLERY</a></li>
+	   <li><a href="#">NEWS</a></li>
+	   <li><a href="#">CONTACT</a></li>
+	   <li><a href="#">DIRECTION</a></li>
+	   </ul>
+	
+	
+	</div>
+    <div id="slider"></div>
+    <div id="parent">
+	    <div id="left">
+		 
+		 <center><h1>WILDLIFE SANCTUARIES IN INDIA</h1> </center>
+		 
+		<p style="font-stretch:condensed; margin-left:10px;margin-right:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India is home to some of the unique
+		flora and fauna species which make wildlife sanctuaries
+		in India a paradise for nature and wildlife lovers. India boasts a rich biodiversity, as the
+		geography of the country is dotted with thick forests, serving as the habitat of a huge number 
+		of wildlife species. From The Great Himalayan National Park in the north to Dandeli Wildlife Sanctuary
+		in the south, India has a plethora of wildlife sanctuaries all over it. Rare and exotic species 
+		that can be sighted on Indian territory are Asiatic Lion, Bengal Tiger, Snow Leopard, One-Horned Rhinoceros
+		and many more.</p>  </dd>
+
+          <p style="font-stretch:condensed; margin-left:10px;margin-right:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The hope of spotting a rare, wild animal in its natural habitat is the most exciting kind of hope. 
+		 The feeling of taking a safari in these dense forests accommodating such rare wildlife species makes 
+		 adrenaline rush through your blood. Sanctuaries in India and the animals that can be spotted there make
+		 it a popular choice among wildlife enthusiasts all over the world. Some of the most popular sanctuaries 
+		 in India where you can witness tigers in their natural habitat are Corbett National Park, Ranthambhore
+		 National park and Sundarbans National Park. If you wish to witness endangered one-horned Rhinos, Kaziranga National Park 
+		 is the only place in the world. And, if you want to see an Asiatic Lion roar, Gir National Park is a great choice. 
+		 If you get lucky, you may also spot a gorgeous Black Panther in Dandeli wildlife Sanctuary in Karnataka.
+		 There is so much more to explore in the wild spaces of India which you can find only when you visit these amazing sanctuaries.
+		</p>  
+		 
+		 <h2 style="font-stretch:condensed; margin-left:10px;margin-right:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here are some of the best national parks and wildlife sanctuaries in India:</h2> 
+		 <ol>
+		    <li><a href="#">Corbett National Park, Uttarakhand</a></li>
+			<li><a href="#">Ranthambore National Park, Rajasthan</a></li>
+			<li><a href="#">Bandipur National Park, Karnataka</a></li>
+			<li><a href="#">Keoladeo Ghana National Park – Bharatpur, Rajasthan</a></li>
+			<li><a href="#">Nagarhole National Park, Karnataka</a></li>
+			 
+	     
+		</div>
+	    <div id="right">
+		     <div id="a"><h1 style="margin-left:13px; margin-top:23px;"><font color="white">WHAT'S NEWS</font></h1></div>
+		     <div id="b"><marquee height="400px" direction="up" behavior="scroll" onmouseover="stop()" onmouseout="start()" scrollamount="5">
+			 
+			     <ul type="disc">
+			        <li>Enveloped by both dry and moist deciduous forests and also semi evergreen forests, the Bhadra Wildlife Sanctuary is a must-visit place. </li>
+			        <li>Kanha National Park is another sought after destination in the list of national parks of Madhya Pradesh. </li>
+			        <li>Sunderbans National Park is one of the largest and oldest in India. Located in the deltaic region of India, this park also shares its boundaries with Bangladesh. </li>
+			        <li>The Bandhavgarh National Park is another enticing name in the list of national parks of India. Located in the Umaria district of Madhya Pradesh, it is one of the largest national parks of Madhya Pradesh. </li>
+			        <li>Tadoba Andhari Tiger Project, a Tiger Reserve in Chandrapur district of Maharashtra is the oldest and the largest National Park in Maharashtra. </li>
+			        <li>Panna National Park is one of the best maintained National Parks of India. Declared as a Tiger Reserve Forest of India in 1994, this park suffered a heavy downfall in the number of Tigers due to poaching.</li>
+			        <li>The Dudhwa National Park, a part of Dudhwa Tiger Reserve, is situated in Uttar Pradesh. History of this park lies back into 1958, when it was declared as a wildlife sanctuary for Swamp Deer. Later, in 1978, it was declared as a Tiger Reserve due to its large number of tigers.</li>
+			     </ul>
+			 </marquee>
+			 </div><form>
+			 <input style="height:40px;width:280px;border-radius:20px;margin-top:10px;margin-left:10px; padding-left:10px;outline:none;" type="email" placeholder="Username" required="true"></input>
+			 <button style="height:50px;width: 120px;border-radius:20px;margin-top:10px;margin-left:90px; background-color:lightgreen;" type="submit">Register</button> </form>
+		</div>
+	</div>
+	<div id="footer"><img src="nature/p.jpg" height="250" width="1000" style="border-radius:20px;"/>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <b><font color="white">Copyright &copy; All right reserved by <a href="#">Kamlesh Bind!!</a></font></b></div>
+
+</div>
+</body>
+</html>
